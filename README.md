@@ -1,7 +1,7 @@
-# Projeto Java/Banco de Dados LeilõesTDSat!
+# Projeto Java/Banco de Dados LeilõesTDSat 🆗!
 Esse projeto foi criado para uma empresa de leilões interessada em utilizar um sistema informatizado em suas rotinas. 
 
-## Tecnoligias Utilizadas:
+## Tecnoligias Utilizadas 💻🖱:
 - Java
 - Git Bash
 - GitHub
