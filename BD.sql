@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Estrutura da tabela `produtos`
 --
-
+CREATE DATABASE LeiloesTDSat;
+USE LeiloesTDSat; 
 CREATE TABLE `produtos` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `nome` text DEFAULT NULL,
