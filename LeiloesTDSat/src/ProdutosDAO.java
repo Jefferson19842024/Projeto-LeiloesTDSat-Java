@@ -39,7 +39,7 @@ public class ProdutosDAO {
 
         try (ResultSet generatedKeys = stmt.getGeneratedKeys()) {
             if (generatedKeys.next()) {
-                produto.setId(generatedKeys.getInt(1)); // Define o ID gerado no objeto DTO
+                produto.setId(generatedKeys.getInt(1)); 
             } else {
                 JOptionPane.showMessageDialog(null, "Erro ao cadastrar produto: Não foi possível obter o ID gerado.");
                 return;

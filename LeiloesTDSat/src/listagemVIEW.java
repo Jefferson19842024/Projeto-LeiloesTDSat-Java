@@ -123,8 +123,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         String id = id_produto_venda.getText();
         
         ProdutosDAO produtosdao = new ProdutosDAO();
-        
- 
+         
         listarProdutos();
     }//GEN-LAST:event_btnVenderActionPerformed
 
