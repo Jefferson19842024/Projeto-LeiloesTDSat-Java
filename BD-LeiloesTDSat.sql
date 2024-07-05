@@ -28,6 +28,7 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE LeiloesTDSat;
 USE LeiloesTDSat;
+DROP DATABASE LeiloesTDSat;
 Drop table produtos; 
 CREATE TABLE `produtos` (
   `id` bigint(20) UNSIGNED NOT NULL,
