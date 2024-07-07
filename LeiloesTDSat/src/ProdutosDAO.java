@@ -70,7 +70,7 @@ public class ProdutosDAO {
     }
 
     public ArrayList<ProdutosDTO> listarProdutos() {
-        String sql = "SELECT * FROM produtos";
+         String sql = "SELECT * FROM produtos";
 
         try {
             PreparedStatement stmt = conn.prepareStatement(sql);
